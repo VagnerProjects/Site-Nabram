@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+.header {
+
+	background-color: #931707;
+	color: #FFF;
+	overflow:hidden;
+	
+ height: 115px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+   
+}
+
+.main {
+  margin-top: 80px; /* Add a top margin to avoid content overlay */
+}
+.header a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header a:visited {
+	color: #fff;
+}
+
+.header a:hover
+{
+	color:blue;
+}
+
+
+.header .sig {
+	font-size: 35px;
+	margin:5px 10px 10px;
+	font-family: "Lucida Calligraphy";
+	color:white;
+}
+
+.header ul {
+	position: relative;
+	left: 1097px;
+	bottom: 20px;
+}
+
+.header ul li {
+	display: inline;
+	padding-left: 0px;
+}
+
+.header .col-1h {
+	font-size: 18px;
+	padding: 30px 0px 30px 30px;
+	font-family: "Roboto", "Arial", san-serif;
+}
+
+.container {
+	margin: 30px;
+	text-align: justify;
+}
+
+.footer {
+	margin-top: 100px;
+}
+
+.sub
+{
+
+	margin: 5px;
+	color:white;
+	font-family: "Segoe Script";
+}
+
+h1
+{
+	font-size: 28px;
+	text-align: left;
+	color: #931707;
+	font-family: "Segoe Script";
+}
+
+.subir
+{
+	margin-top: -10px;
+}
+
+.text
+{
+	font-family:arial;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+hr
+{
+	background-color: #931707;
+    border-color: #931707;
+    border-top: 1px;
+    height: 100%;
+}
+
+address
+{
+	text-align: center;
+	font-size: 15px;
+	font-family: arial;
+	line-height: 1.5;
+}
